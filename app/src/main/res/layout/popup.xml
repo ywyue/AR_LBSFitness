@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="80dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerVertical="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/popup_bg_fnsh"
+            >
+
+            <ImageView
+                android:id="@+id/popup_img"
+                android:layout_width="800px"
+                android:layout_height="600px"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/apple" />
+
+            <LinearLayout
+                android:layout_width="780px"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/popup_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/finish_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="80px" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/popup_text2"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="0dp"
+                        android:text="@string/finish_midleft"
+                        android:textColor="@color/black"
+                        android:textSize="60px"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/popup_text3"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/finish_midright"
+                        android:textColor="@color/lightblue"
+                        android:textSize="60px"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/popup_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/finish_sub"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/popup_btn"
+                android:layout_width="220dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/info"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_start_shape"
+                android:fontFamily="sans-serif"
+                android:text="@string/okBtn"
+                android:textColor="@color/white"
+                android:textSize="80px" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

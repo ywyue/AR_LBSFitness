@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">LBSFitnessApp</string>
+
+    <!--LoginActivity-->
+    <string name="welcome">Welcome!</string>
+    <string name="login_userID">User ID</string>
+    <string name="login_text"></string>
+    <string name="login_as_guest">Login As Guest</string>
+    <string name="login_btn">Sign in</string>
+
+    <!--TrackActivity-->
+    <string name="trackUploadBtn">Track Upload</string>
+    <string name="backButton">Back</string>
+    <string name="directionLabel">Direction</string>
+    <string name="distanceLabel">Distance</string>
+    <string name="currentSpeedLabel">Current Speed</string>
+    <string name="temperatureLabel">Temperature</string>
+    <string name="proximity_text">Click notification to return to app</string>
+
+    <string name="finish_title">End Tracking!</string>
+    <string name="finish_midleft">You are rewarded</string>
+    <string name="finish_midright">award</string>
+    <string name="finish_sub">You can now upload your track!</string>
+
+    <string name="return_title">Well Done!</string>
+    <string name="return_midleft">You have reached</string>
+    <string name="return_midright">name</string>
+    <string name="return_sub">Go back to starting location to complete the round trip</string>
+
+    <string name="okBtn">OK</string>
+
+    <!--MainActivity-->
+    <string name="startButton">Ready Go</string>
+    <string name="trackReviewBtn">Track Review</string>
+    <string name="ARViewBtn">AR View</string>
+
+    <!--ReviewActivity-->
+    <string name="searchButton">Search</string>
+
+    <string name="social_sharing">Do you want to share the game result and quit the app?</string>
+
+    <!--HelpActivity-->
+    <string name="helpTitle">User Manual</string>
+
+    <string name="helpText">
+        1. In the main page, you can select one destination and will be directed to the compass page. \n \n
+        2. After you arrive the destination and return to the starting point, you will be rewarded a fruit. \n \n
+        3. You can upload your tracks and review all existing tracks. \n \n
+        4. In the AR page, you can place your earned rewards in the real world and save them to cloud. \n \n
+        5. If you have previously placed at least one reward, you can scan the environment to re-establish the
+previous session. \n \n
+        6. Before exiting app, you can share your results by SMS, email, etc.
+    </string>
+
+    <!--ARViewActivity-->
+    <string name="toast_camera_permission">Camera permission is needed to run this application</string>
+
+    <string name="have_placed_before">You have placed your rewards previously</string>
+    <string name="have_not_placed_before">You have not placed any rewards previously</string>
+
+    <string name="have_placed_instruction">Follow the instructions at the bottom to locate the model</string>
+    <string name="have_not_placed_instruction">Follow the instructions at the bottom to place the model</string>
+
+    <!--URL for feature layer-->
+    <string name="url_track">https://services1.arcgis.com/i9MtZ1vtgD3gTnyL/arcgis/rest/services/roundTripTrack/FeatureServer/0</string>
+    <string name="url_checkPoint">https://services1.arcgis.com/i9MtZ1vtgD3gTnyL/arcgis/rest/services/roundTripCheckpoint/FeatureServer/0</string>
+
+    <!--Toast alerting and Message-->
+    <string name="empty_user_id">Please fill in user ID!</string>
+    <string name="intent_error">Cannot send intent!</string>
+    <string name="wait_load">Please wait until feature layers loaded!</string>
+    <string name="fail_load">Load failed!</string>
+    <string name="succeed_load">Load Success!</string>
+    <string name="temperature_error">Temperature sensor is not available!</string>
+    <string name="accelerometer_error">Accelerometer sensor is not available!</string>
+    <string name="magnetic_error">Magnetic sensor is not available!</string>
+    <string name="no_location_enabled">The app does not run without location enabled!</string>
+
+    <string name="fail_search">Search failed!</string>
+    <string name="fail_select">Select feature failed!</string>
+    <string name="succeed_upload">Upload Success!</string>
+    <string name="fail_upload">Upload failed!</string>
+
+    <string name="feature_added">Feature added!</string>
+    <string name="error_applying_edits">Applying edits failed!</string>
+    <string name="empty_track">Finish a track first and then upload!</string>
+
+    <string name="arcGISAPIKey">AAPKb82449fa768f4d30b44a17f489e40838FVdd1i7wul4iVq6T6-ehdRiCin-2eVfM0HeiVAkHhLFkcYsmfu2DoF4TjzRvWBay</string>
+
+    <string name="look_for_anchor">Look for anchor</string>
+    <string name="save_anchor">Saving reward to cloud...</string>
+    <string name="locate_anchor">Locate anchor</string>
+    <string name="fail_locate_nearby">Cannot locate nearby. Previous anchor not yet located.</string>
+    <string name="locating_nearby">Locating...</string>
+    <string name="restart">Re-locating</string>
+    <string name="create_anchor">Tap a surface to place a reward</string>
+    <string name="create_next_anchor">Tap a surface to place another reward or back</string>
+    <string name="ready_save">Ready to save</string>
+    <string name="save_reward">Save reward</string>
+    <string name="move_around">Move around the model</string>
+    <string name="fail_locate_anchor">Anchor does not exist</string>
+    <string name="succeed_locate_first_anchor">First reward located!</string>
+    <string name="succeed_locate_all_anchor">All rewards located!</string>
+    <string name="look_for_neary_anchor">Look for rewards nearby</string>
+    <string name="clear_rewards">Cleanup all rewards</string>
+
+</resources>
